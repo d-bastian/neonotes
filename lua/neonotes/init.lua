@@ -41,7 +41,7 @@ function M.search_text_in_notes()
     })
 end
 
-function M.setup()
+function M.setup(opts)
     opts = opts or {}
 
     M.notes_path = opts.notes_path or M.notes_path
