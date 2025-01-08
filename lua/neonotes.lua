@@ -47,7 +47,7 @@ function M.setup()
     M.notes_path = opts.notes_path or M.notes_path
 
     -- Keybinds
-    vim.api.nvim_set_keymap("n", "<leader>on", "<cmd>lua require('neonotes').open_notes()<CR>",
+    vim.api.nvim_set_keymap("n", "<leader>no", "<cmd>lua require('neonotes').open_notes()<CR>",
         { noremap = true, silent = true })
     vim.api.nvim_set_keymap("n", "<leader>sn", "<cmd>lua require('neonotes').search_notes()<CR>",
         { noremap = true, silent = true })
